@@ -3,3 +3,13 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer components {
+
+    .nav-link {
+        @apply m-5 cursor-pointer hover:text-yellow-300;
+    }
+    .nav-link-active {
+        @apply m-5;
+    }
+}

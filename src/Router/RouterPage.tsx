@@ -5,7 +5,7 @@ import ArticlesList from "../Pages/ArticlesList";
 import ArticlesDetail from "../Pages/ArticlesDetail";
 
 export default function RouterPage() {
-    return (<div>
+    return (<div className="h-screen bg-gray-600">
         <Router>
             <Nav />
             <Switch>
